@@ -1,7 +1,7 @@
 # 百度网盘直链下载助手-手机版
 ![TamperMonkey v4.8](https://img.shields.io/badge/TamperMonkey-v4.8-brightgreen.svg) ![Kiwi](https://img.shields.io/badge/Kiwi%20x64-v73.0-brightgreen.svg)
 
-本脚本适用于Android端支持安装 Tampermonkey 或 暴力猴的浏览器，如Kimi，Yandex。
+👉 本脚本适用于Android端支持安装 Tampermonkey 或 暴力猴的浏览器，如Kimi，Yandex。
 
 支持百度网盘移动端网页获取分享链接下载地址和我的网盘下载地址。安装后会在对应界面出现【下载助手】按钮
 
