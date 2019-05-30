@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name              百度网盘直链下载助手-手机版
 // @namespace         https://github.com/syhyz1990/baiduyun.wap
-// @version           1.1.1
+// @version           1.1.2
 // @icon              https://www.baidu.com/favicon.ico
 // @description       百度网盘直链下载助手-手机版 支持百度网盘手机端网盘页面和分享页面一键下载
 // @author            syhyz1990
@@ -117,7 +117,7 @@
 
     function getDownloadLinkWithClientAPI(path, cb) {
       var result;
-      var url = clientAPIUrl + 'file?method=locatedownload&app_id=265486&ver=4.0&path=' + encodeURIComponent(path);
+      var url = clientAPIUrl + 'file?method=locatedownload&app_id=286652&ver=4.0&path=' + encodeURIComponent(path);
 
       GM_xmlhttpRequest({
         method: "POST",
@@ -166,7 +166,7 @@
     function initParams() {
       bdstoken = yunData.bdstoken;
       web = 5;
-      app_id = 250528;
+      app_id = 286652;
       logid = getLogID();
       channel = 'chunlei';
       clienttype = 5;
